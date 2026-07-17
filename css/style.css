@@ -185,3 +185,23 @@ section{ padding:80px 0; }
 .social-btn.mail:hover{ background:var(--accent); color:#fff; border-color:var(--accent); }
 
 footer{ border-top:2px solid var(--ink); padding:30px 0; font-size:13.5px; color:var(--muted); text-align:center; }
+.btn-primary {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: var(--accent); /* Màu cam chủ đạo bài 32 */
+  color: #fff;
+  font-family: 'Fredoka', sans-serif; /* Font bài 32 */
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 100px;
+  border: 3px solid var(--ink);
+  box-shadow: 6px 6px 0 var(--ink);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none; /* Bỏ gạch chân của link */
+}
+
+.btn-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 8px 10px 0 var(--ink);
+  color: #fff;
+}
